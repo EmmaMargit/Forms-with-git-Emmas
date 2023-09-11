@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    /*Gör så att textfälterna på firstname och lastname håller sig innan för pink border*/
+}
+
+#container {
+    width: 500px;
+    border: 1px solid pink;
+    margin: 20px auto;
+}
+
+input {
+    width: 100%;
+
+}
