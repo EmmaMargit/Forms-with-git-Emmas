@@ -12,13 +12,30 @@
     <h1>Register here!</h1>
      
         <form action=""> <!--VIKTIGT!! Alltid ha med name="" när det är 
-            Text field, när man skickar formuläret till en server man snappar upp
+            Text field, när man skickar formuläret till en server då snappar den upp
             värderna via name.-->
+
+                <!--Input Text field-->
                 <label for="firstname">Firstname</label>
                 <input type="text" name="firstname" id="firstname">
                 
                 <label for="lastname">Lastname</label>
                 <input type="text" name="lastname" id="lastname">
+
+                <!--Input Radio button--> 
+            <label for="">Gender</label><br>
+            <div class="front-row">
+
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label><br><!--Denna label förknippas med denna radio button, 
+                så då måste id:t ha samma namn alltså i detta fall MALE-->
+
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label><br>
+
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other">Other</label>
+            </div>
         </form>
     </div>
 

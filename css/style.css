@@ -9,10 +9,14 @@
     margin: 20px auto;
 }
 
-input {
+input[type="text"]/*Denna påverkar bara stylningen av Input text*/ {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
     border: 1px solid red;
+}
+
+.front-row {
+    margin: 10px 0;
 }
