@@ -22,6 +22,19 @@
                 <label for="lastname">Lastname</label>
                 <input type="text" name="lastname" id="lastname">
 
+                <!--Dessa 3 under har egna input type som tyr sig olika, 
+                men man kan lägga in dem i samma selektor ändå på stylning-->
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="email">
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+
+                <!--På denna kan du ha type="age" men när man skriver istället
+                number blir det en lista på nummer istället-->
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age">
+
                 <!--Input Radio button--> 
             <label for="">Gender</label><br>
             <div class="from-row">
@@ -42,11 +55,16 @@
                 <input type="checkbox" id="newsletter" name="newsletter" value="true">
                 <label for="newsletter">Do you wan't to subscribe to our newsletter?</label><br>
 
-                <input type="checkbox" id="terms" name="terms" value="true">
+                <input type="checkbox" id="terms" name="terms" value="true" required>
                 <label for="terms">Do you accept our terms?</label><br>
             </div>
+
+            <!--Other Input-->
+            <input type="submit" value="Register">
+            <!--<button>Register</button>, 2 olika knappar-->
         </form>
     </div>
 
 </body>
+
 </html>
