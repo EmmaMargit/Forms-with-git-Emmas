@@ -59,12 +59,18 @@
                     <option value="IQ">Iraq</option>
                     <option value="NL" selected>Netherlands</option>
                 </select>
-            
+
+            <!--Input textarea/textfield-->
+            <label for="comment">Comment</label>
+                <textarea name="comment" id="comment" rows="10" placeholder="Add your comments here..."></textarea>
+                <!--När jag har den i css så slipper man ha cols=""(ex. cols="40").
+                Om man vill ha placeholder, så får det ej vara något mellanrum mellan de 2 >< vid ></textarea>-->
+
             <!--Input checkbox-->
             <div class="from-row">
                 <input type="checkbox" id="newsletter" name="newsletter" value="true">
                 <label for="newsletter">Do you wan't to subscribe to our newsletter?</label><br>
-
+    
                 <input type="checkbox" id="terms" name="terms" value="true" required>
                 <label for="terms">Do you accept our terms?</label><br>
             </div>
