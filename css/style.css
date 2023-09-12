@@ -13,6 +13,8 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="number"],
+select,
+textarea,
 input[type="submit"]/*Denna påverkar bara stylningen av Input text*/ {
     width: 100%;
     padding: 10px;
